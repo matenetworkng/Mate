@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+header{
+    background:#1877f2;
+    color:white;
+    padding:20px;
+}
+
+main{
+    padding:50px 20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#1877f2;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
