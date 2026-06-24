@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate - Media Download</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">🎬 Mate</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#images">Images</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#documents">Documents</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to Mate</h2>
+                <p>Download all your favorite media in one place</p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </section>
+
+        <!-- Media Categories -->
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Choose Your Media Type</h2>
+                <div class="category-grid">
+                    <div class="category-card" id="videos">
+                        <h3>📹 Videos</h3>
+                        <p>Download videos from your favorite platforms</p>
+                    </div>
+                    <div class="category-card" id="images">
+                        <h3>🖼️ Images</h3>
+                        <p>High-quality image downloads</p>
+                    </div>
+                    <div class="category-card" id="music">
+                        <h3>🎵 Music</h3>
+                        <p>Download and stream your favorite songs</p>
+                    </div>
+                    <div class="category-card" id="documents">
+                        <h3>📄 Documents</h3>
+                        <p>Download PDFs and other documents</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Download Form -->
+        <section class="download-section">
+            <div class="container">
+                <h2>Start Downloading</h2>
+                <form id="downloadForm" class="download-form">
+                    <input type="url" placeholder="Paste your media URL here" required>
+                    <select required>
+                        <option value="">Select media type</option>
+                        <option value="video">Video</option>
+                        <option value="image">Image</option>
+                        <option value="music">Music</option>
+                        <option value="document">Document</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary">Download</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Mate Media Download. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
